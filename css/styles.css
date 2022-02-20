@@ -1,0 +1,60 @@
+:root {
+  --background-color: #ffffff;
+  --main-font-family: Open Sans, sans-serif;
+  --main-font-weight: 400;
+  --main-letter-spacing: 0.02em;
+  --section-title-font: Raleway, san-serif;
+  --section-title-font-weight: 700;
+  --section-title-letter-spacing: 0.05em;
+  --section-quotes-font-weight: 600;
+  --section-quotes-letter-spacing: 0.1em;
+  --section-quotes-text-transform: uppercase;
+  --section-quotes-text-color: #303030;
+  --section-quotes-font-size: 11px;
+  --section-quotes-line-height: 1.36;
+}
+/* body */
+body {
+  color: var(--main-text-color);
+  background-color: var(--background-color);
+  font-weight: var(--main-font-weight);
+  font-family: var(--main-font-family);
+  letter-spacing: var(--main-letter-spacing);
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  padding-top: 130px;
+  padding-bottom: 130px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
