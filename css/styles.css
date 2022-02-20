@@ -13,7 +13,7 @@
   --section-quotes-font-size: 11px;
   --section-quotes-line-height: 1.36;
 }
-/* body */
+
 body {
   color: var(--main-text-color);
   background-color: var(--background-color);
